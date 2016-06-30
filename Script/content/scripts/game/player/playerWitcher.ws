@@ -1,6 +1,6 @@
 /***********************************************************************/
-/** 	Â© 2015 CD PROJEKT S.A. All rights reserved.
-/** 	THE WITCHERÂ® is a trademark of CD PROJEKT S. A.
+/** 	© 2015 CD PROJEKT S.A. All rights reserved.
+/** 	THE WITCHER® is a trademark of CD PROJEKT S. A.
 /** 	The Witcher game is based on the prose of Andrzej Sapkowski.
 /***********************************************************************/
 
@@ -122,11 +122,8 @@ statemachine class W3PlayerWitcher extends CR4Player
 		default isInitialized = false;
 		
 	
-
-
 	private var invUpdateTransaction : bool;
 		default invUpdateTransaction = false;
-	
 	
 	
 	
@@ -2768,7 +2765,6 @@ statemachine class W3PlayerWitcher extends CR4Player
 		var reduction : SAbilityAttributeValue;
 		var skillLevel : int;
 		
-		
 		if(abilityManager && abilityManager.IsInitialized() && IsAlive())
 		{
 			PauseStaminaRegen('WhirlSkill');
@@ -2784,7 +2780,6 @@ statemachine class W3PlayerWitcher extends CR4Player
 					reduction = GetSkillAttributeValue(S_Sword_s01, 'cost_reduction', false, true) * (skillLevel - 1);
 					cost = MaxF(0, cost * (1 - reduction.valueMultiplicative) - reduction.valueAdditive);
 				}
-				
 				
 				DrainStamina(ESAT_FixedValue, cost, delay, GetSkillAbilityName(S_Sword_s01));
 			}
