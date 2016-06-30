@@ -1,0 +1,12 @@
+;meta[language=en]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+;
+2111758001|        |custom_skills_install|Custom skill(s) installed. Find them in the Character menu.
+2111758002|        |custom_skills_disable|Custom skill(s) disabled. Any skill points used on them have been refunded. If you intend to delete this mod completely, please use the UNINSTALL mode in options.
+2111758003|        |custom_skills_uninstall|Custom skill(s) uninstalled. Any skill points used on them have been refunded. Please save, quit Witcher, then delete the mod before continuing.
+2111758004|        |custom_skills_noaction|Custom skill(s) DEBUG: No Action Taken
+2111758005|        |custom_skills_repair|Custom skill(s) repaired. Find them in the Character menu.

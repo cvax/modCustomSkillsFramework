@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".gitattributes",
+				".gitignore",
+				"modCustomSkillsFramework.sublime-project",
+				"modCustomSkillsFramework.sublime-workspace"
+			],
+			"folder_exclude_patterns":
+			[
+				"Compiled",
+				".idea",
+				".meteor",
+				".vscode",
+				".git"
+			],
+			"path": "."
+		}
+	]
+}
