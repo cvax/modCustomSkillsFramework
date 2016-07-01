@@ -35,8 +35,8 @@ enum ECustomSkillsActionThisRun
 function GetCustomSkills() : array<CustomSkill>
 {
 	var dm : CDefinitionsManagerAccessor;
-	var main, geraltSkills : SCustomNode;
-	var i, k, j : int;
+	var main : SCustomNode;
+	var i, k : int;
 	var tmpName, groupName, groupEnableVar, tmpArgIntName, tmpArgFloatName : name;
 	var tmpString, tmpArgIntString, tmpArgFloatString, groupNameString, groupEnableVarString : string;
 	var tmpCustomSkill : CustomSkill;

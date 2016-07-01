@@ -143,10 +143,10 @@ statemachine class W3PlayerWitcher extends CR4Player
 		var items2 			: array<SItemUniqueId>;
 		var horseTemplate 	: CEntityTemplate;
 		var horseManager 	: W3HorseManager;
-		// modSkillsFramework++
+		// modCustomSkillsFramework++
 		var customSkills : array<CustomSkill>;
   		customSkills = GetCustomSkills();
-   		// modSkillsFramework--
+   		// modCustomSkillsFramework--
 		
 		AddAnimEventCallback( 'ActionBlend', 			'OnAnimEvent_ActionBlend' );
 		AddAnimEventCallback('cast_begin',				'OnAnimEvent_Sign');
@@ -356,7 +356,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 		}
 		
 		
-		// modSkillsFramework++
+		// modCustomSkillsFramework++
 
 		// If uninstall (0 = off/disable, 1 = on, 2 = uninstall)
 		for (i = 0; i<customSkills.Size(); i += 1)
@@ -371,7 +371,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 
 		// Notification of PR install/uninstall status action
 		AddTimer('CustomSkillsActionThisRunMsg', 3.0, false);
-		// modSkillsFramework--
+		// modCustomSkillsFramework--
 
 		isInitialized = true;
 	}
@@ -8854,7 +8854,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 		}
 	}
 	
-	// modSkillsFramework++
+	// modCustomSkillsFramework++
 	timer function CustomSkillsDisable(dt : float, id : int)
 	{
 		((W3PlayerAbilityManager)abilityManager).DisableCustomSkills();
@@ -8885,7 +8885,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 	{
 		((W3PlayerAbilityManager)abilityManager).FixCustomSkills(force);
 	}
-	// modSkillsFramework--
+	// modCustomSkillsFramework--
 	
 	public function Debug_ClearCharacterDevelopment(optional keepInv : bool)
 	{
