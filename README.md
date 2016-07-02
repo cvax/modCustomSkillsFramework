@@ -19,12 +19,10 @@ This framework serves as the prerequisite code base for installing new skills fo
 
 ### What you (developer) will need to do:
 
-1. Cook ```geralt_skills.xml``` with new skills
-2. Create icons for your skills
-3. Create custom Mod menu .xml to manage the skill
-4. Program the skill's behavior logic
+1. Hook up your custom skill to Custom Skills Framework
+2. Program the custom skill's behavior logic
 
-For a detailed guide on how to use this framework, please see the Wiki page.
+For a detailed guide on how to use this framework, please see the [Wiki](https://github.com/cvax/modCustomSkillsFramework/wiki) page.
 
 
 
@@ -33,6 +31,7 @@ For a detailed guide on how to use this framework, please see the Wiki page.
 1. Copy ```modCustomSkillsFramework``` to ```<Witcher3 Install>\Mods\```
 2. Copy custom skill mod to ```<Witcher3 Install>\Mods\```
 3. Script Merger
+4. In-game menu for custom skill, set the enable option to on
 
 
 
@@ -40,7 +39,8 @@ For a detailed guide on how to use this framework, please see the Wiki page.
 
 # Database of Custom Skills
 Every skill needs to be a unique SSkill. This list catalogs currently used SSkills.
-| Custom Skill               | SSkill      | Author | Link                                     |
-| -------------------------- | ----------- | ------ | ---------------------------------------- |
-| modReflexes (Reflex Blast) | S_Magic_s25 | cvax   | [NexusMods](http://www.nexusmods.com/witcher3/mods/956?) / [GitHub](https://github.com/cvax/modReflexes) |
-| modPhoenixRage             | S_Magic_s26 | cvax   | NexusMods / GitHub                       |
+
+| Custom Skill               | SSkill      | CName     | Author | Link                                     |
+| -------------------------- | ----------- | --------- | ------ | ---------------------------------------- |
+| modReflexes (Reflex Blast) | S_Magic_s25 | magic_s25 | cvax   | [NexusMods](http://www.nexusmods.com/witcher3/mods/956?) / [GitHub](https://github.com/cvax/modReflexes) |
+| modPhoenixRage             | S_Magic_s26 | magic_s26 | cvax   | [NexusMods](http://www.nexusmods.com/witcher3/mods/1765) / [GitHub](https://github.com/cvax/modPhoenixRage) |
