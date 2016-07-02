@@ -1,5 +1,7 @@
 # Introducing the Custom Skills Framework for Witcher 3!
 
+![Alt Text](https://staticdelivery.nexusmods.com/mods/952/images/1758-0-1467478979.png)
+
 This framework serves as the prerequisite code base for installing new skills for Geralt. As a developer, you will be able to quickly implement additional skills without worrying about hooking up all the pipes. As a gamer, you will benefit from a simplified install experience that allows for multiple custom skills to coexist without needing ultra-nasty Script Mergers.
 
 
