@@ -1,2 +1,5 @@
+v0.50.1b
+- Fixed compile issue when having modCustomSkillsFramework installed, but no actual skills utilizing it
+
 v0.50b
 - Initial release
