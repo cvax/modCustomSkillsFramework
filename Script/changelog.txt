@@ -1,3 +1,7 @@
+v0.60b
+- Added support for different custom skill categories (e.g. Sword, Alchemy, Perks)
+- Fixed bug with unslotting and refunding skill points on skills that weren't disabled/uninstalled
+
 v0.50.1b
 - Fixed compile issue when having modCustomSkillsFramework installed, but no actual skills utilizing it
 
