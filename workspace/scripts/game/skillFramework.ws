@@ -125,3 +125,13 @@ function GetCustomSkills() : array<CustomSkill>
 
 	return geraltSkill;
 }
+
+exec function listcustomskills(optional abilityName : string)  
+{
+	GetWitcherPlayer().Debug_ListCustomSkills(abilityName);
+}
+
+exec function fixcustomskills()  
+{
+	GetWitcherPlayer().Debug_FixCustomSkills(true);
+}
