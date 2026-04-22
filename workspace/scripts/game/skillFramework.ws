@@ -25,10 +25,10 @@ enum ECustomSkillEnableState
 
 enum ECustomSkillsActionThisRun
 {
+	ECSATR_NoAction,
 	ECSATR_Disabled,
 	ECSATR_Installed,
 	ECSATR_Uninstalled,
-	ECSATR_NoAction,
 	ECSATR_Repaired
 }
 

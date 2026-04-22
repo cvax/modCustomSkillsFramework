@@ -1,3 +1,6 @@
+v0.70.1b
+- Fixed skill being unequipped on loading save file 
+
 v0.70b
 - Updated to support Witcher 3 v4.04
 

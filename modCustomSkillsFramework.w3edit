@@ -1,7 +1,7 @@
 {
     "name": "modCustomSkillsFramework",
     "modName": "modCustomSkillsFramework",
-    "version": "v0.70b",
+    "version": "v0.70.1b",
     "gameVersion": "4.04",
     "description": "This framework serves as the prerequisite code base for installing new skills for Geralt.",
     "thumbnail": "",
